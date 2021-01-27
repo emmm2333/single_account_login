@@ -2,7 +2,7 @@ from flask import Flask
 from settings import Config
 from app.extensions import db, socketio, login_manager
 from app.routes import demo_bp
-from app.events import store_sid, verify_login_again
+from app.events import store_sid
 
 
 def create_app():
